@@ -1,0 +1,226 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>TatianaGuari-TrabajoPractico-n3</title>
+<style>
+		aside{
+			float: left;
+			padding: 20px;
+			
+		}
+		main {
+			padding: 20px;
+		}
+	</style>
+</head>
+
+
+<body>
+<header style="background-color:antiquewhite">
+	<h1>Que es Java</h1>
+	<h3>Es una tecnología que incluye un lenguaje de programación y una plataforma de desarrollo</h3>
+</header>
+
+<nav style="background-color:antiquewhite">
+	<ul> 
+	<li><a href="#">El lenguaje de programacion Java</a></li>
+	<li><a href="#">Caracteristicas de Java</a></li>
+	<li><a href="#">Conceptos relacionados con la programacion</a></li>
+	</ul>
+</nav>
+
+<main style="background-color:azure">
+	<h2>La plataforma Java</h2>
+	<p>Por definición, una plataforma es el ambiente hardware o software sobre el cual se puede
+ejecutar un programa. La mayoría de las plataformas actuales se pueden describir como una
+combinación de un sistema operativo y su hardware subyacente; por ejemplo, un pc con su
+sistema operativo Windowsse denomina comúnmente plataforma Windows, una notebook con
+una distribución Linux se denomina plataforma Linux y un celular con Android se conoce como
+plataforma Android</p>
+
+	<section>
+		<h2> El lenguaje de programacion Java</h2>
+		<h3> descripcion</h3>
+		<p>Es un lenguaje de programación de alto nivel. Su creador James Gosling lo define en base a sus
+características: sencillo, orientado a objetos, distribuido, interpretado, robusto, seguro,
+independiente de las arquitecturas, portable, eficaz, multitarea y dinámico. Antes de poder
+describir en detalle cada una de estas características es conveniente indicar como funciona el
+proceso de desarrollo de una aplicación Java.</p>
+		<p>En el lenguaje de programación Java, todo el código fuente se escribe en archivos de texto plano
+con la extensión .java. Estos archivos fuente son entonces compilados por una herramienta de
+la plataforma denominada compilador javac guardando el resultado en archivos con el mismo nombre, pero con
+extensión .class. Un archivo .class no contiene código nativo para el procesador de la plataforma base, sino que contiene un
+tipo de código denominado bytecode (lenguaje binario intermedio). Los bytecode se pueden considerar el lenguaje
+máquina de la JVM, debido a que la JVM es la encargada de traducir los bytecode en el código máquina del ordenador</p>
+	</section>
+		
+	<section>
+		<h2> Caracteristicas de Java</h2>
+		<h3> Algunas caracteristicas de java son:</h3>
+		<ul> 
+		<li><p>Sencillo: La sintaxis de Java es similar a la de los lenguajes C y C++, pero evita
+características semánticas que los vuelven complejos, confusos y poco seguros:
+		</p>
+			<ul> 
+			<li>En Java sólo existen tres tipos primitivos: los numéricos (enteros y reales), el tipo
+carácter y el tipo booleano. Todos los tipos numéricos están firmados (esto significa
+que a pesar de no ser objetos representan el mismo tipo y alcance en cualquier
+plataforma que se ejecute)</li>
+			<li>En Java, los arreglos, las matrices y las cadenas de caracteres son objetos, lo que
+facilita su creación y manipulación</li>
+			<li>En Java, el programador no tiene que preocuparse de la gestión de la memoria.
+Un sistema denominado "el recolector de basura" (garbage collector) se encarga
+de asignar la memoria necesaria a la hora de crear objetos y de liberarla cuando
+estos ya no se referencian en el dominio del programa (cuando ninguna variable
+referencia al objeto).</li>
+			<li>En Java, no existen preprocesadores ni archivos de encabezamiento. Las
+instrucciones “define” de C se sustituyen por constantes en Java y las instrucciones
+“typedef” de C se reemplazan por clases</li>
+			<li>En C y C++, se definen estructuras y uniones para representar tipos de datos
+complejos, mientras que, en Java, se crean instancias de clases para representar
+tipos de datos complejos.</li>
+			<li>En C++, una clase puede heredar varias clases, lo que puede generar problemas de
+ambigüedad. Con el fin de evitar estos problemas, Java sólo autoriza la herencia
+simple pero aporta un mecanismo de simulación de herencia múltiple mediante la
+implementación de una o varias interfaces.</li>
+			<li>Y, para terminar, en Java, no hay punteros sino referencias a objetos o celdas de un
+arreglo o matriz (referenciadas por su índice), simplemente porque la gestión de
+punteros es fuente de muchos errores en los programas C y C++.</li>
+			</ul>
+		</li>
+		<li>Orientado a objetos: Salvo los tipos de datos primitivos, todo en Java es concebido
+como un objeto. Y, además, Java se ha provisto de clases incorporadas que encapsulan
+los tipos primitivos (los wrappers). Por lo tanto, Java es un lenguaje de programación
+orientado a objetos y diseñado según el modelo de otros lenguajes (C++, Eiffel,
+SmallTalk, Objective C, Cedar/Mesa, Ada, Perl), pero sin sus defectos. Las ventajas de la
+programación orientada a objetos de forma resumida son: un mejor dominio de la
+complejidad (dividir un problema complejo en una serie de pequeños problemas), una
+reutilización más sencilla, y una mayor facilidad de corrección y de evolución. Java estándar está dotado de un conjunto de clases que permiten crear y manipular todo
+tipo de objetos (interfaz gráfica, acceso a la red, gestión de entradas/salidas...). </li>
+		<li>Interpretado: La ejecución de un programa Java se realiza mediante el intérprete JVM.
+Esto hace que sea más lento. Sin embargo, conlleva también sus ventajas, en particular
+el hecho de no tener que recompilar un programa Java de un sistema a otro porque
+basta, para cada uno de los sistemas, con tener su propia máquina virtual.
+Debido a que Java es un lenguaje interpretado, no es necesario editar los enlaces
+(obligatorio en C++) antes de ejecutar un programa. En Java, por lo tanto, sólo hay dos
+etapas, la compilación y la ejecución. La máquina virtual se encarga de la operación de
+edición de enlaces en tiempo de ejecución del programa.</li>
+		<li>Robusto: Java es un lenguaje fuertemente tipado y estricto. Por ejemplo, la declaración
+de las variables debe ser obligatoriamente explícita en Java. Se verifica el código
+(sintaxis, tipos) en el momento de la compilación y también en el momento de la
+ejecución (gestión de excepciones), lo que permite reducir los errores y los problemas
+de incompatibilidad de versiones.
+Además, Java se encarga totalmente de la gestión de las referencias de los objetos y
+el programador no tiene manera de acceder a ellos, lo que evita la sobreescritura
+accidental de datos en memoria y la manipulación de datos corruptos.</li>
+		<li>Seguro: Dados los campos de aplicación de Java, es muy importante que haya un
+mecanismo que vigile la seguridad de las aplicaciones y los sistemas. El motor de
+ejecución de Java (Java Runtime Environment, JRE) es el encargado de esta tarea.
+El JRE se apoya en particular en el archivo de texto java.policy, que contiene información
+relativa a la configuración de la seguridad. Si bien el JRE se describirá en mayor detalle
+cuando se detallen los componentes de la plataforma Java, se puede adelantar que es
+el encargado de gestionar el consumo de memoria de los objetos, y no el compilador,
+como es el caso en C++</li>
+		<li>Multitarea: Java permite desarrollar aplicaciones que ponen en marcha la ejecución
+simultánea de varios hilos (o procesos ligeros). Esto permite efectuar simultáneamente
+varias tareas, con el fin de aumentar la velocidad de las aplicaciones, ya sea
+compartiendo el tiempo del CPU o repartiendo las tareas entre varios procesadores.</li>
+		<li>Dinámico: En Java, el programador no tiene que editar los vínculos (obligatorio en C y
+C++). Por lo tanto, es posible modificar una o varias clases sin tener que efectuar una
+actualización de estas modificaciones para el conjunto del programa. La comprobación
+de la existencia de las clases se realiza en tiempo de compilación y la llamada al código
+de estas clases sólo se hace en el momento de la ejecución del programa. Este proceso
+permite disponer de aplicaciones más ligeras de tamaño en memoria.</li>
+		</ul>
+		
+	</section>
+
+	<section>
+		<h2> Conceptos relacionados con la programacion</h2>
+		<h3> Tipos de Datos en Java</h3>
+		<h3>Los tipos de Datos Primitivos</h3>
+		<p>Son definiciones dentro del lenguaje que no son objetos. Todos los tipos numéricos están
+firmados (esto significa que a pesar de no ser objetos representan el mismo tipo y alcance en
+cualquier plataforma que se ejecute). Para lograr esto, al definir una variable con un tipo
+primitivo, el lenguaje almacena en memoria un espacio de memoria, este espacio de memoria
+permite representar el rango de valores que se le puede asignar a la variable según el tipo de
+datos primitivo usado. Esto significa que al declarar una variable primitiva se asume que
+consumirá memoria, aunque no se la use desde el principio de ejecución del programa ya que
+se le asigna un espacio en memoria al momento de declararse. Los primitivos poseen valores
+por defecto y este valor depende del tipo de dato.</p>
+		<h3>Los tipos Referencia</h3>
+		<p>En Java, los objetos se crean (instancian) a partir de clases y en ese momento se almacenan en
+espacios de memoria. Java gestiona la dirección en memoria de estos objetos. Para acceder a
+ellos Java asigna a cada objeto creado una “referencia”.
+Esta referencia, conceptualmente hablando es similar a la dirección de una casa. Para ubicar una
+casa recurrimos a la dirección. La referencia de un objeto permite acceder al objeto en memoria.
+Los elementos que permiten generar instancias (objetos) son las clases de la biblioteca de Java,
+las clases creadas por los programadores, las interfaces, los arreglos y las colecciones. En
+definitiva, los tipos referencias son los objetos que se crean a partir de las entidades
+mencionadas en la oración precedente. Más detalles sobre el funcionamiento en memoria de
+las referencias se verán más adelante.</p>
+		
+		<table>
+		<tr>
+			<th>Nombre</th>
+			<th>Declaracion</th>
+			<th>Descripcion</th>
+		</tr>
+		<tr>
+			<td>Booleano</td>
+			<td>boolean</td>
+			<td>Define una bandera que puede tomar dos posibles valores: true o false</td>
+		</tr>
+		<tr>
+			<td>Entero pequeño</td>
+			<td>short</td>
+			<td>Representacion de un entero cuyo rango es pequeño</td>
+		</tr>
+		<tr>
+			<td>Entero</td>
+			<td>int</td>
+			<td>Representacion de un entero estandar</td>
+		</tr>
+		<tr>
+			<td>Entero largo</td>
+			<td>long</td>
+			<td>Representacion de un entero de rango ampliado</td>
+		</tr>
+		<tr>
+			<td>Real</td>
+			<td>float</td>
+			<td>Representacion de un real estandar</td>
+		</tr>
+		<tr>
+			<td>Real largo</td>
+			<td>double</td>
+			<td>Representacion de un real de mayor presicion</td>
+		</tr>
+		<tr>
+			<td>Caracter</td>
+			<td>char</td>
+			<td>Caracter o simbolo. Para componer una cadena es presiso usar una clase String</td>
+		</tr>
+		
+		</table>
+	</section>
+	
+</main>
+
+<aside>
+	<h3>Contenido Adicional</h3>
+	
+	 <img src="static/img/imagenjava.jpg" alt="descripcion de la imagen" width="" height="">		
+</aside>	
+
+<footer style="background-color:pink">
+<h3>Pie de pagina html</h3>
+<p>parrafo</p>
+</footer>
+
+
+</body>
+
+</html>
