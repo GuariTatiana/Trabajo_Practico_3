@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/CSS/estilos.css">
+</head>
+<body>
+
+	<header id="header">
+	<h1>Parte dos- trabajo practico nº3</h1>
+	<h3>Desarrollo de formulario</h3>
+	</header>
+	
+	<main class="main">
+	<h1>Formulario de datos</h1>
+	<form>
+		<label for="dni">DNI:</label>
+		<input id="dni" type="number" required placeholder="ingrese dni" name="dni"></input>
+		<br><br>
+		<label for="nombre">Nombres:</label>
+		<input id="nobre" type="text" required placeholder="ingrese sus nombres" name="nombre"></input>
+		<br><br>
+		<label for="apellido">Apellidos:</label>
+		<input id="apellido" type="text" required placeholder="ingrese su apellido" name="apellido"></input>
+		<br><br>
+		<label for="fecnac">Fecha de Nacimiento:</label>
+		<input id="fecnac" type="date" required placeholder="ingrese su fecha de nac." name="fecnac"></input>	
+		<br><br>
+		<label>Seleccione una opcion:</label>	
+		<div>
+			<label for="generoM">Masculino</label>
+			<input id="generoM" type="radio" value="Masculino" name="generoM"></input>	
+		<br>
+			<label for="generoF">Femenino</label>
+			<input id="generoF" type="radio" value="Femenino" name="generoF"></input>	
+		<br>
+			<label for="generoX">Prefiero no decirlo</label>
+			<input id="generoX" type="radio" value="Prefiero no decirlo" name="generoX"></input>	
+		<br>
+		</div>	
+		<br>
+		<label for="correoelec">Correo Electronico:</label>
+		<input id="correoelec" type="email" required placeholder="ingrese su correo" name="correoelec"></input>
+		<br><br>
+		<label for="domicilio">Domicilio:</label>
+		<input id="domicilio" type="text" required placeholder="ingrese su domicilio" name="domicilio" ></input>
+		<br><br>
+		<label for="provincia">Provincia:</label>
+		<select id="provincia" name="provincia" required>
+			<option value="Jujuy" selected>Jujuy</option>
+			<option value="salta">Salta</option>
+			<option value="tucuman">Tucuman</option>
+			<option value="formosa">Formosa</option>
+			<option value="catamarca">Catamarca</option>
+			<option value="santafe">Santa Fe</option>
+			<option value="Chaco">Chaco</option>
+		</select>
+		<br><br>
+		<label for="celular">Numero de telefono celular:</label>
+		<input id="celular" type="number" name="celular" placeholder="ingrese su numero de telefono"></input>
+		<br><br>
+		<label>Categorias de interes:</label>	
+		<div>
+			<label for="interesI">Informatica</label>
+			<input id="interesI" type="checkbox" name="interes"></input>	
+			<label for="interesM">Matematica</label>
+			<input id="interesM" type="checkbox" name="interes"></input>	
+			<label for="interesT">Tegnologia</label>
+			<input id="interesT" type="checkbox" name="interes"></input>	
+		</div>
+		<br>
+		<label for="sugerencia">Sugerencias:</label>
+		<br>
+		<textarea id="sugerencia" placeholder="Ingrese Comentarios" name="sugerencia" rows="8" cols="48"></textarea>
+		<br><br>
+		<label for="password">Password:</label>
+		<input id="password" type="password" required placeholder="ingrese su password" name="password" maxlength="10" min="4"></input>
+		<br><br>
+		<label for="terycon">Acepto los terminos y Condiciones:</label>
+		<input id="terycon" type="checkbox" name="terycon"></input>	
+		<br><br>
+		<label for="inforel">Acepto recibir informacion relativa:</label>
+		<input id="inforel" type="checkbox" name="inforel"></input>	
+		<br><br>
+		<input type="submit" value="GUARDAR">
+		<input type="button" value="CANCELAR">
+	
+	</form>	
+	</main>
+
+	<footer>
+	<h2>Informacion de contacto y redes sociales</h2>
+	<a href="https://github.com/">
+	https://github.com/</a>
+	<br>
+	<a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es&aa_click=8891933284028179">
+	https://www.instagram.com</a>
+	<br>
+	<a href="/index">Pagina principal</a>
+
+	</footer>
+</body>
+</html>
