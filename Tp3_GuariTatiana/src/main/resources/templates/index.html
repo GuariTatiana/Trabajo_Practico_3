@@ -18,23 +18,24 @@
 </head>
 
 
-<body>
-<header style="background-color: #ADD8E6">
+<body >
+<header id="header">
+	<br>
 	<h1>Que es Java</h1>
 	<h3>Es una tecnología que incluye un lenguaje de programación y una plataforma de desarrollo</h3>
 </header>
 
-<nav style="background-color: #ADD8E6">
+<nav class="nav">
 	<ul> 
-	<li><a href="#">El lenguaje de programacion Java</a></li>
-	<li><a href="#">Caracteristicas de Java</a></li>
-	<li><a href="#">Conceptos relacionados con la programacion</a></li>
-	<li><a href="/formulario">Formulario de datos</a></li>
+	<li><a class="a" href="#">El lenguaje de programacion Java</a></li>
+	<li><a class="a" href="#">Caracteristicas de Java</a></li>
+	<li><a class="a" href="#">Conceptos relacionados con la programacion</a></li>
+	<li><a class="a" href="/formulario">Formulario de datos</a></li>
 	</ul>
 </nav>
 
 <div class="container">
-<main style="background-color:azure">
+<main class="main">
 	<h2>La plataforma Java</h2>
 	<p>Por definición, una plataforma es el ambiente hardware o software sobre el cual se puede
 ejecutar un programa. La mayoría de las plataformas actuales se pueden describir como una
@@ -43,9 +44,9 @@ sistema operativo Windowsse denomina comúnmente plataforma Windows, una noteboo
 una distribución Linux se denomina plataforma Linux y un celular con Android se conoce como
 plataforma Android</p>
 
-	<section>
-		<h2> El lenguaje de programacion Java</h2>
-		<h3> descripcion</h3>
+	<section class="section1">
+		<h2 class="h2-titulo1"> El lenguaje de programacion Java</h2>
+		<h3 class="h3-titulo1"> descripcion</h3>
 		<p>Es un lenguaje de programación de alto nivel. Su creador James Gosling lo define en base a sus
 características: sencillo, orientado a objetos, distribuido, interpretado, robusto, seguro,
 independiente de las arquitecturas, portable, eficaz, multitarea y dinámico. Antes de poder
@@ -57,12 +58,13 @@ la plataforma denominada compilador javac guardando el resultado en archivos con
 extensión .class. Un archivo .class no contiene código nativo para el procesador de la plataforma base, sino que contiene un
 tipo de código denominado bytecode (lenguaje binario intermedio). Los bytecode se pueden considerar el lenguaje
 máquina de la JVM, debido a que la JVM es la encargada de traducir los bytecode en el código máquina del ordenador</p>
+	<br>
 	</section>
 		
-	<section>
-		<h2> Caracteristicas de Java</h2>
-		<h3> Algunas caracteristicas de java son:</h3>
-		<ul> 
+	<section class="section2">
+		<h2 class="h2-titulo2"> Caracteristicas de Java</h2>
+		<h3 class="h3-titulo2"> Algunas caracteristicas de java son:</h3>
+		<ul class="ul-1"> 
 		<li><p>Sencillo: La sintaxis de Java es similar a la de los lenguajes C y C++, pero evita
 características semánticas que los vuelven complejos, confusos y poco seguros:
 		</p>
@@ -137,13 +139,13 @@ de la existencia de las clases se realiza en tiempo de compilación y la llamada
 de estas clases sólo se hace en el momento de la ejecución del programa. Este proceso
 permite disponer de aplicaciones más ligeras de tamaño en memoria.</li>
 		</ul>
-		
+	<br>	
 	</section>
 
-	<section>
-		<h2> Conceptos relacionados con la programacion</h2>
-		<h3> Tipos de Datos en Java</h3>
-		<h3>Los tipos de Datos Primitivos</h3>
+	<section class="section3">
+		<h2 class="h2-titulo3"> Conceptos relacionados con la programacion</h2>
+		<h3 class="h3-titulo3"> Tipos de Datos en Java</h3>
+		<h3 class="h3-sub">Los tipos de Datos Primitivos</h3>
 		<p>Son definiciones dentro del lenguaje que no son objetos. Todos los tipos numéricos están
 firmados (esto significa que a pesar de no ser objetos representan el mismo tipo y alcance en
 cualquier plataforma que se ejecute). Para lograr esto, al definir una variable con un tipo
@@ -153,7 +155,7 @@ datos primitivo usado. Esto significa que al declarar una variable primitiva se 
 consumirá memoria, aunque no se la use desde el principio de ejecución del programa ya que
 se le asigna un espacio en memoria al momento de declararse. Los primitivos poseen valores
 por defecto y este valor depende del tipo de dato.</p>
-		<h3>Los tipos Referencia</h3>
+		<h3 class="h3-sub">Los tipos Referencia</h3>
 		<p>En Java, los objetos se crean (instancian) a partir de clases y en ese momento se almacenan en
 espacios de memoria. Java gestiona la dirección en memoria de estos objetos. Para acceder a
 ellos Java asigna a cada objeto creado una “referencia”.
@@ -208,27 +210,29 @@ las referencias se verán más adelante.</p>
 		</tr>
 		
 		</table>
+	<br>
 	</section>
-	
+	<br>
 </main>
 </div>
 
 <aside class="aside">	
-	<img src="/img/imagenjava.jpg" alt="descripcion">	
+	<img class="imagen" src="/img/imagenjava.jpg" alt="descripcion">	
 	<br>
-	<a href="https://mindwaresrl.com/wp-content/uploads/2015/01/jre-jdk.png">
+	<a class="a" href="https://mindwaresrl.com/wp-content/uploads/2015/01/jre-jdk.png">
 	La siguiente figura muestra la relación entre los componentes de java</a>
 </aside>	
 
 
-<footer>
+<footer id="footer">
+	<br>
 	<h2>Informacion de contacto y redes sociales</h2>
-	<a href="https://github.com/">
+	<a class="a1" href="https://github.com/">
 	https://github.com/</a>
 	<br>
-	<a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es&aa_click=8891933284028179">
+	<a class="a1" href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es&aa_click=8891933284028179">
 	https://www.instagram.com</a>
-
+	<br><br><br><br>
 </footer>
 
 </body>

@@ -1,22 +1,171 @@
 @charset "ISO-8859-1";
-footer {
+
+#footer {
+	text-align: rigth;
+	background-color: #ADD8E6;
+}
+
+#footer2 {
+	text-align: center;
 	background-color: #ADD8E6;
 }
 
 #header{
+	text-align: center;
+	color: #293241;
+	font-family: "Homer Simpson UI";
 	background-color: #ADD8E6;
+}
+
+.nav{
+	background-color: #ADD8E6;
+}
+
+.a {
+	background-color: #98c1d9;
+}
+
+.a1 {
+	background-color: #98c1d9;
 }
 
 .main{
 	background-color: #ADD8E6;
 }
+
 .aside{
 	flex:1;
 	padding:10px;
-	background-color: #ADD8E6;
+	
 }
 .container{
 	display:flex;
 	flex-direction:row;
 	width:100%;
 }
+
+.section1{
+	background-color: #e0fbfc;
+}
+
+.section2{
+	background-color: #e0fbfc;
+}
+
+.section3{
+	background-color: #e0fbfc;
+}
+
+.h2-titulo2{
+	text-align: center;
+	color: #293241;
+	font-family: "Homer Simpson UI";	
+}
+
+.h3-titulo2{
+	text-align: center;
+	font: oblique bold 100% cursive;
+}
+
+.h2-titulo3{
+	text-align: center;
+	color: #293241;
+	font-family: "Homer Simpson UI";	
+}
+
+.h3-titulo3{
+	text-align: center;
+	font: oblique bold 100% cursive;
+}
+
+.h2-titulo1{
+	text-align: center;
+	color: #293241;
+	font-family: "Homer Simpson UI";	
+}
+
+.h3-titulo1{
+	text-align: center;
+	font: oblique bold 100% cursive;
+}
+
+.h3-sub{
+	text-align: rigth;
+	margin-left: 3%;
+ 	margin-right: 3%;
+}
+
+
+.ul-1{
+	list-style-type: upper-roman;
+	font-size: 1.1rem;
+	margin-left: 3%;
+ 	margin-right: 3%;
+}
+
+p{
+	line-height: 1.5em;
+	margin-left: 3%;
+ 	margin-right: 3%;
+}
+
+table {
+  table-layout: fixed;
+  width: 90%;
+  border-collapse: collapse;
+  border: 3px solid black;
+  background-color: #ff33cc;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+thead th:nth-child(1) {
+  width: 25%;
+}
+
+thead th:nth-child(2) {
+  width: 25%;
+}
+
+thead th:nth-child(3) {
+  width: 50%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #9263f3;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #c088f9;
+}
+
+tbody tr {
+  background-image: url(noise.png);
+}
+
+.imagen{
+	border-image: 3px solid black;
+	-moz-border-image: url("/img/imagenjava.jpg") 30 30 round; 
+  -webkit-border-image: url("/img/imagenjava.jpg") 30 30 round; 
+  -o-border-image: url("/img/imagenjava.jpg") 30 30 round; 
+  border-image: url("/img/imagenjava.jpg") 30 30 round;
+}
+
+#h1{
+	font-family: "Homer Simpson UI";
+	color: #000068;
+	text-align: center;
+	margin-left: 20%;
+ 	margin-right: 20%;
+}
+
+.formulario{
+	margin-left: 20%;
+ 	margin-right: 20%;
+}
+

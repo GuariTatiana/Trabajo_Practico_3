@@ -8,13 +8,16 @@
 <body>
 
 	<header id="header">
+	<br>
 	<h1>Parte dos- trabajo practico nº3</h1>
 	<h3>Desarrollo de formulario</h3>
+	<br>
 	</header>
 	
 	<main class="main">
-	<h1>Formulario de datos</h1>
-	<form>
+	<br>
+	<h1 id="h1">Formulario de datos</h1>
+	<form class="formulario">
 		<label for="dni">DNI:</label>
 		<input id="dni" type="number" required placeholder="ingrese dni" name="dni"></input>
 		<br><br>
@@ -60,7 +63,7 @@
 		<label for="celular">Numero de telefono celular:</label>
 		<input id="celular" type="number" name="celular" placeholder="ingrese su numero de telefono"></input>
 		<br><br>
-		<label>Categorias de interes:</label>	
+		<label>Seleccionar las categorias de interes:</label>	
 		<div>
 			<label for="interesI">Informatica</label>
 			<input id="interesI" type="checkbox" name="interes"></input>	
@@ -78,18 +81,19 @@
 		<input id="password" type="password" required placeholder="ingrese su password" name="password" maxlength="10" min="4"></input>
 		<br><br>
 		<label for="terycon">Acepto los terminos y Condiciones:</label>
-		<input id="terycon" type="checkbox" name="terycon"></input>	
+		<input id="terycon" type="checkbox" name="terycon" required></input>	
 		<br><br>
 		<label for="inforel">Acepto recibir informacion relativa:</label>
 		<input id="inforel" type="checkbox" name="inforel"></input>	
 		<br><br>
 		<input type="submit" value="GUARDAR">
 		<input type="button" value="CANCELAR">
-	
+		<br><br>
 	</form>	
 	</main>
 
-	<footer>
+	<footer id="footer2">
+	<br><br>
 	<h2>Informacion de contacto y redes sociales</h2>
 	<a href="https://github.com/">
 	https://github.com/</a>
@@ -98,7 +102,7 @@
 	https://www.instagram.com</a>
 	<br>
 	<a href="/index">Pagina principal</a>
-
+	<br><br><br><br>
 	</footer>
 </body>
 </html>
